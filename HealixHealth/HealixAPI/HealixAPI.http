@@ -1,0 +1,6 @@
+@HealixAPI_HostAddress = http://localhost:5069
+
+GET {{HealixAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

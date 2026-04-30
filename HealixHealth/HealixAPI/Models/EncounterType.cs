@@ -1,13 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
 namespace HealixAPI.Models
 {
-    public class ProviderType
+    public class EncounterType
     {
-        public int ProviderTypeId { get; set; }
+        public int EncounterTypeId { get; set; }
 
         [Required]
-        [MaxLength(50)]
+        [MaxLength (50)]
         public string TypeName { get; set; } = string.Empty;
     }
 }
